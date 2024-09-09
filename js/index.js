@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", (event) => {
-    const botón = document.getElementById("buttonText");
-    botón.addEventListener("click", () => {
-        let texto = document.getElementById("inputText").value;
-        localStorage.setItem("texto", texto);
+document.addEventListener("DOMContentLoaded", (e) => {
+    let button = document.getElementById("buttonText");
+    button.addEventListener("click", () => {
+        var text = document.getElementById("inputText").value;
+        localStorage.setItem("datos", text);
     });
 
 });
